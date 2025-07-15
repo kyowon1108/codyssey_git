@@ -1,4 +1,4 @@
-# merge와 rebase의 차디
+# merge와 rebase의 차이
 
 ## `git merge`
 
