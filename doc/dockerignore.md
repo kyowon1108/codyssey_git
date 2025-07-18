@@ -14,7 +14,7 @@
 
 - **생산 환경용 서버**: Flask의 기본 개발 서버는 가볍지만 성능이나 안정성 면에서 실환경 배포에 적합하지 않음.
 - **멀티 프로세싱**: Gunicorn은 여러 워커를 사용하여 다수의 요청을 동시에 처리 가능.
-- **WSGI 서버**: Flask는 WSGI 앱이기 때문에 Gunicorn 같은 WSGI 서버로 실행하는 것이 적합.
+- **WSGI 서버**: Flask는 WSGI(web server gateway interface) 앱이기 때문에 Gunicorn 같은 WSGI 서버로 실행하는 것이 적합.
 - **보안 및 안정성**: Gunicorn은 더 나은 에러 처리와 연결 관리, 보안 측면에서 우수함.
 
 ---
